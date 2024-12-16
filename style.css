@@ -1,0 +1,37 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body and container */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Style buttons */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style result message */
+.result {
+    font-size: 24px;
+    margin-top: 20px;
+}
